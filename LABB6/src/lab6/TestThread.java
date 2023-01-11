@@ -13,7 +13,7 @@ public class TestThread {
 		T2.start();
 		T3.start();
 	}
-
+	#adding the thread
 	private static class ThreadDemo1 extends Thread {
 		public void run() {
 			synchronized (Lock1) {
