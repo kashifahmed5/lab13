@@ -13,7 +13,7 @@ public class TestThread {
 		T2.start();
 		T3.start();
 	}
-	#adding the thread
+	//adding the thread
 	private static class ThreadDemo1 extends Thread {
 		public void run() {
 			synchronized (Lock1) {
@@ -24,7 +24,7 @@ public class TestThread {
 				} catch (InterruptedException e) {
 				}
 				System.out.println("Thread 1: Waiting for lock 2...");
-
+				//ADD SYNC METHODE
 				synchronized (Lock2) {
 					System.out.println("Thread 1: Holding lock 1 & 2...");
 				}
